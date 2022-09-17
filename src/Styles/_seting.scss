@@ -1,0 +1,22 @@
+@font-face{
+    font-family: "fonte1";
+    src: url();
+}
+
+
+$color1:rgb(32,35,42);
+
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
